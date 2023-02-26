@@ -40,3 +40,5 @@ const Welcome = () => {
             
     );
 };
+
+export {Welcome }
