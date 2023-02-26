@@ -1,0 +1,3 @@
+node_module
+*.d.ts
+*config

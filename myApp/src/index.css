@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components {
+    .input_box{
+        @apply border px-1 py-2 border-none outline-0  rounded-sm w-[100%]
+    }
+}
