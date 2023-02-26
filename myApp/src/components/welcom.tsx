@@ -1,10 +1,6 @@
 import * as React from 'react';
 import video from "../assets/Desk.mp4"
-import { sendEmail } from '../emails/send';
-let handleRegister = () => {
-    sendEmail()
-}
-export const Welcome = () => {
+const Welcome = () => {
     return (
         <section className=' font-Poppin flex items-center justify-center flex-col w-full h-[100vh]'>
             
@@ -23,7 +19,6 @@ export const Welcome = () => {
                 </p>
 
                 <button
-                    onClick={handleRegister}
                     className='
                 self-center
                 rounded-md

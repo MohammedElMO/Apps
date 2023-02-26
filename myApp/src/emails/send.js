@@ -1,10 +1,10 @@
-import { Email } from "smtpjs"
+import * as mom from "smtpjs"
 
 
 
-export function sendEmail()
+ function sendEmail()
 {
-    Email.send({
+    mom.send({
       Host: "smtp.gmail.com",
       Username: "elamranimohammed104@gmail.com",
       Password: "12345678999",
