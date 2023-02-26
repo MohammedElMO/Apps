@@ -1,8 +1,8 @@
 import * as React from 'react';
 import video from "../assets/Desk.mp4"
-import { Link } from 'react-router-dom';
-interface Intro {
-    onHandle:() => void
+import { sendEmail } from '../emails/send';
+let handleRegister = () => {
+    sendEmail()
 }
 export const Welcome = () => {
     return (
@@ -23,6 +23,7 @@ export const Welcome = () => {
                 </p>
 
                 <button
+                    onClick={handleRegister}
                     className='
                 self-center
                 rounded-md
