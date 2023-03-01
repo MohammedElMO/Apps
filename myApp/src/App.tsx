@@ -3,7 +3,6 @@ import {
   Routes,
   Route,
   Link,
-  BrowserRouter as Router
 }from "react-router-dom"
 import { NavBar } from './components/NavBar';
 import Register from "./components/Register"
@@ -14,7 +13,6 @@ import "./index.css"
  const App = () => {
   return (
     <>
-      <Router>
         <div className="App">
         <NavBar/>
           <Routes>
@@ -23,7 +21,6 @@ import "./index.css"
             <Route  path="/thankYou" element={<ThankYou/>}></Route>
         </Routes>
         </div>
-      </Router>
     </>
   );
 };
