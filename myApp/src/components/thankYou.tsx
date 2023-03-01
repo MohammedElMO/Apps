@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {MdOutlineDoneOutline} from "react-icons/md"
+// import {MdOutlineDoneOutline} from "react-icons/md"
 type Props = {
     
 };
@@ -9,7 +9,8 @@ export const ThankYou = (props: Props) => {
             
             <section className=" font-Poppin bg-red-500 opacity-75 self-center rounded-xl p-6">
                 <div className='flex scale-150 ring-slate-400   p-6 justify-center w-full'>
-                <MdOutlineDoneOutline className='h-10' />
+                {/* <MdOutlineDoneOutline className='h-10' /> */}
+                &2425;
                 </div>
                 <h3 className= 'm-3 font-bold text-center text-2xl text-white '>You Done Regestration</h3>
                 <p className='text-center font-semibold '>please Check you Inbox Email</p>
