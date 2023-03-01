@@ -11,6 +11,7 @@
   
     body{
         min-height: 100vh;
+        overflow-y: hidden;
     }
     .input_box{
         @apply border flex-1 px-3 text-base font-semibold  py-2 border-none outline-0  rounded-lg my-2 w-[100%]
