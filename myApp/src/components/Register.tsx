@@ -1,6 +1,16 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+
+const handleRequest = (e:MouseEvent) => {
+    console.log(e.target);
+    
+}
+
+
+
+
+
 const Register = () => {
     return (
 <main className='flex h-[100vh]  items-start  justify-center'>
@@ -26,7 +36,7 @@ const Register = () => {
                 <label htmlFor="product4"className='label_input'>Quntity</label>
                 <input className='input_box ' id='product4' maxLength={3} type="text" />
             </div>
-                <button type='button' className='p-2 rounded-md hover:shadow bg-violet-500 shadow-lg text-white  font-semibold'>
+                <button type='submit' onSubmit={(e) => handleRequest(e)} className='p-2 rounded-md hover:shadow bg-violet-500 shadow-lg text-white  font-semibold'>
                     <Link to="/ThankYou">Submit</Link>
                 </button>
         </form >
